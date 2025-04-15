@@ -12,7 +12,7 @@ def get_turmas():
         {"id": "dsm5", "name": "DSM 5", "color": "#FFEEAD"},
         {"id": "dsm6", "name": "DSM 6", "color": "#D4A5A5"}
     ]
-    return jsonify(turmas)
+    return jsonify({"turmas": turmas})
 
 if __name__ == '__main__':
     app.run()
